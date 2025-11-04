@@ -1,6 +1,12 @@
 {
     "experiences": [
         {
+            "position": "Incident Engineer",
+            "company": "Betsson Group",
+            "date": "2025-",
+            "description": "Detection, correlation and analysis of incidents affecting mainly the production environment. Single point of contact for internal and external stakeholders. Monitoring of the health of the environment, as well as initial triage of reported or detected issues."
+        },
+        {
             "position": "Sabbatical",
             "company": "-",
             "date": "2024-2025",
