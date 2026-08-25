@@ -3,3 +3,25 @@ title: home
 layout: index
 page: true
 ---
+
+{% for category in site.categories %}
+  {% assign name = category[0] %}
+  {% assign posts = category[1] %}
+
+<section>
+  <h2>{{ name }}</h2>
+  <ul class="{{ name }}">
+    {% for post in posts %}
+      <li>
+        {% if post.src %}
+          <a href="{{ post.url | relative_url }}">
+            <img src="{{ post.src }}"/>
+          </a>
+        {% else %}
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
