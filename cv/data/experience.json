@@ -1,0 +1,52 @@
+{
+    "experiences": [
+        {
+            "position": "Incident Engineer",
+            "company": "Betsson Group",
+            "date": "2025-",
+            "description": "Detection, correlation and analysis of incidents affecting mainly the production environment. Single point of contact for internal and external stakeholders. Monitoring of the health of the environment, as well as initial triage of reported or detected issues."
+        },
+        {
+            "position": "Sabbatical",
+            "company": "-",
+            "date": "2024-2025",
+            "description": "Took time to travel and complete a long-planned cross-country hike. Concurrently resumed work on libslw, a C++/Lua binding layer aimed at simplifying interaction with the Lua C API. Focused on usability, safety, and code clarity."
+        },
+        {
+            "position": "Service Desk Agent",
+            "company": "CGI",
+            "date": "2023-2024",
+            "description": "Transfer from CircleK to CGI. Training of CGI staff in CircleK best practices. Incident troubleshooting, categorization, and resolution, as well as documentation of discovered solutions. Adherence to internal and external KPI's."
+        },
+        {
+            "position": "Service Desk Agent",
+            "company": "CircleK",
+            "date": "2022-2023",
+            "description": "Incident troubleshooting, categorization, and resolution, as well as documentation of discovered solutions. Adherence to internal and external KPI's."
+        },
+        {
+            "position": "Subject Matter Expert",
+            "date": "2022-2022",
+            "company": "Wipro IT Services",
+            "description": "Backlog incident categorisation and dispatch, production issue resolution, and production report generation, as well as automation and generalization of the most used reports using MS Power BI, Excel, and in-project tools (Service Now, Avaya, Amazon Connect, etc.)"
+        },
+        {
+            "position": "Service Desk Agent",
+            "date": "2021-2022",
+            "company": "Wipro IT Services",
+            "description": "Incident troubleshooting, categorization, and resolution, as well as documentation of discovered solutions. Adherence to internal and external KPI's."
+        },
+        {
+            "position": "Content Manager",
+            "date": "2020-2021",
+            "company": "KPAX Marketing",
+            "description": "Management, and publishing of content received from copy writers, and translators, as well as development of technical solutions for better management of content."
+        },
+        {
+            "position": "Earlier career",
+            "date": "2011-2019",
+            "company": "Multiple",
+            "description": "Support technician, consultant, line chef, customer service agent. Ask and you shall receive."
+        }
+    ]
+}
