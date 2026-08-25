@@ -3,15 +3,27 @@ destination : ".site/"
 
 # SITE
 email : marcus.hansson@email.com
-github : github.com/defavlt
-name: "defav.lt"
-url: "http://defav.lt"
+github : github.com/turboelk
+name: "turboelk"
+url: "http://turboelk.com"
 #url: http://localhost:4000
-paginate: 5
-markdown: rdiscount
-permalink: /:title/
-pygments: false
-exclude: [generate.sh]
-gems:
- - jekyll-redirect-from 
- - jekyll-paginate
+#markdown: rdiscount
+permalink: /:year-:month-:day.html
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "Marcus"
+  -
+    scope:
+      path: "_posts/posts"
+    values:
+      layout: "posts"
+  -
+    scope:
+      path: "_posts/photography"
+    values:
+      layout: "photography"
