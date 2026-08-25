@@ -1,6 +1,6 @@
 ---
 title: 'About me'
-layout: post
+layout: page
 page: true
 ---
 
