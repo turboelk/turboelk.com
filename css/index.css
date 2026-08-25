@@ -1,0 +1,22 @@
+section {
+  margin-bottom: 2.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.photography {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: .5rem;
+}
+
+.photography img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/8;
+  object-fit: cover;
+}

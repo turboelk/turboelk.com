@@ -1,0 +1,50 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header nav a {
+  font-family: "Merriweather", serif;
+}
+
+body {
+  max-width: 70rem;
+  margin: 1.5rem;
+}
+
+/* menu */
+nav {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:first-of-type {
+  background: #000;
+  color: #fff;
+  padding: 0.25em 0.5em;
+}
+
+nav a:first-of-type:hover {
+  color: pink; /* cool */
+}
+
+nav a:not(:first-of-type):hover {
+  padding-bottom: none;
+  border-bottom: 0.25em solid pink;
+}
+
+nav a:nth-of-type(2) {
+  margin-left: auto;
+}
+
+nav a:nth-of-type(2):not(:last-of-type) {
+  margin-right: 0.5em;
+}

@@ -1,0 +1,21 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body > header {
+  margin-bottom: 0.25em;
+}
+
+header nav a:first-of-type {
+  background: #fff;
+  color: #000;
+}
+
+img {
+  border-bottom: 5px solid #000;
+}
+
+p {
+  padding: 0.1em 0.5em;
+}

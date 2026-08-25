@@ -1,0 +1,144 @@
+@media print, all {
+    /*****************/
+    /* Visuals */
+    .accent {
+        border-bottom: 0.25em yellow;
+        border-bottom-style: solid;
+        line-height: 0.5em;
+    }
+
+    /*****************/
+    /* Utility */
+    .float-right {
+        float: right;
+    }
+
+    .centerv {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        height: 100%;
+    }
+    
+    .sibling { display: inline-block; }
+    .pl-none { padding-left: 0 !important; }
+    .pt-none { padding-top: 0 !important; }
+    .pb-none { padding-bottom: 0 !important; }
+    .pr-none { padding-right: 0 !important; }
+
+    .ml-none { margin-left: 0 !important; }
+    .mt-none { margin-top: 0 !important; }
+    .mb-none { margin-bottom: 0 !important; }
+    .mr-none { margin-right: 0 !important; }
+
+    .ml { margin-left: 0.25em; }
+    .mt { margin-top: 0.25em; }
+    .mb { margin-bottom: 0.25em; }
+    .mr { margin-right: 0.25em; }
+
+    .fl { float: left; }
+    .fr { float: right; }
+    .fl-always { float: left; }
+    .fr-always { float: right; }
+
+    .faded {
+        color: var(--cl4);
+        font-size: 0.75em;
+        margin-bottom: 0.5em;
+        display: block;
+        position: relative;
+        top: -0.5em;
+    }
+
+    .inline-block:last-of-type {
+        display: inline-block;
+    }
+
+    .description {
+        margin-top: 0;
+    }
+
+    h1 span,
+    h2 span,
+    h3 span {
+        line-height: 1em;
+    }
+
+    .skill,
+    .language,
+    .education {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .progress {
+        height: 0.25em;
+        margin-top: 0.55em;
+        margin-left: 1em;
+        float: right;
+        max-width: 4em;
+        background-color: var(--cl3);
+    }
+
+    .progress .bar {
+        background-color: var(--clw2);
+    }
+
+    footer img {
+        height: 5em;
+    }
+
+    header h1 {
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.0625em;
+        line-height: 0.5em;
+    }
+
+    header h1 span:last-child {
+        line-height: 1em;
+        font-size: small;
+        font-weight: normal;
+    }
+
+    h1 { font-size: 2em; }
+
+    h1, h2, h3,
+    p {
+        color: var(--ccolor);
+    }
+
+    .branded-link {
+        color: var(--ccolor);
+        padding: 0.5em 0.25em 0.5em 0.5em;
+        margin: 0;
+    }
+
+    a.branded-link:hover {
+        color: var(--cl3);
+        background-color: var(--ccolor);
+    }
+
+    a.branded-link:visited:hover {
+        color: var(--cl3);
+    }
+
+    a.branded-link:visited {
+        color: var(--clw2);
+    }
+
+    .branded-link .icon,
+    a.branded-link:visited .icon {
+        color: var(--ccolor);
+    }
+
+    .branded-link span {
+        font-weight: normal;
+    }
+
+    a.branded-link[href=""],
+    a.branded-link[href=""] span {
+        cursor: default;
+        user-select: none;
+    }
+}
