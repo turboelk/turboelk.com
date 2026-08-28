@@ -1,6 +1,5 @@
-img {
-  max-width: 100%;
-  height: auto;
+p {
+  padding: 0.1em 0.5em;
 }
 
 body > header {
@@ -14,8 +13,51 @@ header nav a:first-of-type {
 
 img {
   border-bottom: 5px solid #000;
+  max-width: 100%;
+  height: auto;
 }
 
-p {
-  padding: 0.1em 0.5em;
+/* overlay */
+.overlay {
+  background: #333;
+  padding: 0;
+  border: 0;
+  margin: 4em 1em 1em;
+}
+
+.overlay::backdrop {
+  background: rgb(0 0 0 / 0);
+  backdrop-filter: blur(0);
+
+  transition:
+    all 300ms normal ease;
+}
+
+.overlay:modal::backdrop {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+@starting-style {
+  .overlay:modal::backdrop {
+    backdrop-filter: blur(0);
+    background: rgb(0 0 0 / 0);
+  }
+}
+
+.overlay > img {
+  display: inline-block;
+}
+
+.overlay-open {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5em 0;
+}
+
+.overlay-close {
+  display: block;
+  color: #ccc;
+  padding: 0;
 }

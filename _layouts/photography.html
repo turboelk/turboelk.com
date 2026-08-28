@@ -18,7 +18,24 @@
       </nav>
     </header>
     <article>
-      <img src="{{ page.src }}" alt="{{ page.title }}" />
+      {% assign id = page.name | split: "." | first %}
+
+      <dialog id="overlay-{{ id }}" class="overlay">
+        <button 
+          class="overlay-open overlay-close" 
+          commandfor="overlay-{{ id }}"
+          command="close">
+          <img src="{{ page.src }}" alt="{{ page.title }}" />
+          <span>Click anywhere to close</span>
+        </button>
+      </dialog>
+
+      <button 
+        class="overlay-open"
+        commandfor="overlay-{{ id }}"
+        command="show-modal">
+        <img src="{{ page.src }}" alt="{{ page.title }}" />
+      </button>
       {{ content }}
     </article>
     <footer>
